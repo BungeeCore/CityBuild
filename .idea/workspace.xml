@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8898bd-bb58-4b9d-aeeb-a702480601e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/PaperSpigot_1_8_8_R0_1_SNAPSHOT_latest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/CityBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/CityBuild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/Money.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,8 +31,8 @@
       <file leaf-file-name="Money.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="122" selection-start-line="21" selection-start-column="122" selection-end-line="21" selection-end-column="122" />
+            <state relative-caret-position="849">
+              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#113#114#0" expanded="true" />
@@ -94,7 +90,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="241" />
     <option name="y" value="152" />
     <option name="width" value="1934" />
@@ -232,12 +228,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527886907572</updated>
       <workItem from="1527886916239" duration="1412000" />
-      <workItem from="1527928527988" duration="1048000" />
+      <workItem from="1527928527988" duration="1312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2460000" />
+    <option name="totallyTimeSpent" value="2724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -317,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="122" selection-start-line="21" selection-start-column="122" selection-end-line="21" selection-end-column="122" />
+        <state relative-caret-position="849">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#113#114#0" expanded="true" />
@@ -346,7 +342,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
