@@ -19,8 +19,8 @@ public class Money {
         if (!isConnected()) {
             try {
                 connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Money?autoReconnect=true", "root", "");
-            } catch (SQLException e) {
-                e.printStackTrace();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
             }
         }
     }
@@ -47,11 +47,43 @@ public class Money {
             set.close();
             ps.close();
             return get;
-        } catch (SQLException e) {
-            e.printStackTrace();
+        } catch (SQLException ex) {
+            ex.printStackTrace();
         }
         return false;
     }
 
-    
+    public void registerPlayer(String name, UUID uuid) {
+        if (isPlayerExists(uuid)) {
+            return;
+        }
+        Update("INSERT INTO Money (Name, UUID, Money) VALUES ('" + name + "', '" + uuid.toString() + "', '100')");
+    }
+
+    public void setMoney(UUID uuid, int money) {
+        Update("UPDATE Money SET Money = '" + money + "' WHERE UUID = '" + uuid.toString() + "'");
+    }
+
+    public int getMoney(UUID uuid) {
+        try {
+            PreparedStatement ps = connection.prepareStatement("SELECT * FROM Money WHERE UUID = '" + uuid.toString() + "'");
+            ResultSet set = ps.executeQuery();
+            set.next();
+            int money = set.getInt("Money");
+            set.close();
+            ps.close();
+            return money;
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+        return -1;
+    }
+
+    public void addMoney(UUID uuid, int money) {
+        setMoney(uuid, (getMoney(uuid) + money));
+    }
+
+    public void removeMoney(UUID uuid, int money) {
+        setMoney(uuid, (getMoney(uuid) - money));
+    }
 }

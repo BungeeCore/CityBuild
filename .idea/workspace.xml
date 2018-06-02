@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8898bd-bb58-4b9d-aeeb-a702480601e4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/SideboardManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/TabHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/Money.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CityBuild.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CityBuild.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/CityBuild.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="176">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#207#208#0" expanded="true" />
                 <element signature="e#238#239#0" expanded="true" />
@@ -28,17 +31,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Money.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Money.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="849">
-              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+            <state relative-caret-position="1935">
+              <caret line="88" column="1" lean-forward="true" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#113#114#0" expanded="true" />
                 <element signature="e#135#136#0" expanded="true" />
                 <element signature="e#194#195#0" expanded="true" />
                 <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#2364#2365#0" expanded="true" />
+                <element signature="e#2420#2421#0" expanded="true" />
+                <element signature="e#2477#2478#0" expanded="true" />
+                <element signature="e#2503#2504#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SideboardManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/SideboardManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-603">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TabHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/TabHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +102,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/CityBuild.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/Money.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/SideboardManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/TabHandler.java" />
       </list>
     </option>
   </component>
@@ -90,7 +123,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="241" />
     <option name="y" value="152" />
     <option name="width" value="1934" />
@@ -228,12 +261,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527886907572</updated>
       <workItem from="1527886916239" duration="1412000" />
-      <workItem from="1527928527988" duration="1312000" />
+      <workItem from="1527928527988" duration="4891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2724000" />
+    <option name="totallyTimeSpent" value="6303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -300,27 +333,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/CityBuild.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+        <state relative-caret-position="1935">
+          <caret line="88" column="1" lean-forward="true" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#113#114#0" expanded="true" />
             <element signature="e#135#136#0" expanded="true" />
             <element signature="e#194#195#0" expanded="true" />
             <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
+            <element signature="e#2420#2421#0" expanded="true" />
+            <element signature="e#2477#2478#0" expanded="true" />
+            <element signature="e#2503#2504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/SideboardManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-603">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/apis/TabHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/bungeecore/citybuild/CityBuild.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -342,7 +399,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
